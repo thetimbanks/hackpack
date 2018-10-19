@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <style>
+            body {
+                animation: myanim 2.0s infinite;
+            }
+
+            @-webkit-keyframes myanim {
+                0%   { background-color: #FF0000 ; }
+                16%  { background-color: #FFAA00; }
+                32% { background-color: #FFFF00; }
+                48% { background-color: #00FF00; }
+                60% { background-color: #0000FF; }
+                76% { background-color: #FF00FF; }
+                100% { background-color: #EF0202; }
+            }
+            @-moz-keyframes myanim {
+                0%   { background-color: #FF0000 ; }
+                16%  { background-color: #FFAA00; }
+                32% { background-color: #FFFF00; }
+                48% { background-color: #00FF00; }
+                60% { background-color: #0000FF; }
+                76% { background-color: #FF00FF; }
+                100% { background-color: #EF0202; }
+            }
+            @-ms-keyframes myanim {
+                0%   { background-color: #FF0000 ; }
+                16%  { background-color: #FFAA00; }
+                32% { background-color: #FFFF00; }
+                48% { background-color: #00FF00; }
+                60% { background-color: #0000FF; }
+                76% { background-color: #FF00FF; }
+                100% { background-color: #EF0202; }
+            }
+            @keyframes myanim {
+                0%   { background-color: #FF0000 ; }
+                16%  { background-color: #FFAA00; }
+                32% { background-color: #FFFF00; }
+                48% { background-color: #00FF00; }
+                60% { background-color: #0000FF; }
+                76% { background-color: #FF00FF; }
+                100% { background-color: #EF0202; }
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+              pywebview.api.showLightsParams('{"demo":3, "repeat": 100}');
+            });
+        </script>
+    </body>
+</html>
